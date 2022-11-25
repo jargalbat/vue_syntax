@@ -2,6 +2,14 @@
 Vue.js is a JavaScript framework that makes building interactive and reactive web frontends easier.<br>
 https://vuejs.org/<br>
 
+## VS Code
+Plugins:<br>
+Prettier - Prettier - Code formatter<br>
+Code > Preferences > Settings > format > Text Editor > Default formatter > Prettier<br>
+<br>
+Shortcuts:<br>
+File > Preferences > Keyboard Shortcuts > Format Document<br>
+
 ## Syntax
 Input<br>
 ```
