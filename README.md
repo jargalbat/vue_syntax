@@ -3,19 +3,23 @@ Vue.js is a JavaScript framework that makes building interactive and reactive we
 https://vuejs.org/<br>
 
 ## Syntax
-
-### Input
+Input:<br>
+```
 <input type="text" id="goal" v-model="enteredValue" /><br>
-
-### Button
+```
+Button:<br>
+```
 <button type="button" v-on:click="addGoal">Add</button><br>
-
-### For
+```
+For:<br>
+```
 <li v-for="goal in goals">{{ goal }}</li>
-
-### Anchor
+```
+Anchor link:<br>
+```
 v-bind:href="url"<br>
-
-### Ht
+```
+Html viewer:<br>
+```
 v-html="htmlStr"<br>
-
+```
