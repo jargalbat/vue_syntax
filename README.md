@@ -31,3 +31,20 @@ Html viewer<br>
 ```
 v-html="htmlStr"<br>
 ```
+app.js<br>
+```
+Vue.createApp({
+  data() {
+    return {
+      goals: [],
+      enteredValue: "",
+    };
+  },
+  methods: {
+    addGoal() {
+      this.goals.push(this.enteredValue);
+      this.enteredValue = "";
+    },
+  },
+}).mount("#app");
+```
