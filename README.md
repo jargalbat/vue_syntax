@@ -11,6 +11,23 @@ Shortcuts:<br>
 File > Preferences > Keyboard Shortcuts > Format Document<br>
 
 ## Syntax
+app.js<br>
+```
+Vue.createApp({
+  data() {
+    return {
+      goals: [],
+      enteredValue: "",
+    };
+  },
+  methods: {
+    addGoal() {
+      this.goals.push(this.enteredValue);
+      this.enteredValue = "";
+    },
+  },
+}).mount("#app");
+```
 Input<br>
 ```
 <input type="text" id="goal" v-model="enteredValue" /><br>
@@ -31,20 +48,4 @@ Html viewer<br>
 ```
 v-html="htmlStr"<br>
 ```
-app.js<br>
-```
-Vue.createApp({
-  data() {
-    return {
-      goals: [],
-      enteredValue: "",
-    };
-  },
-  methods: {
-    addGoal() {
-      this.goals.push(this.enteredValue);
-      this.enteredValue = "";
-    },
-  },
-}).mount("#app");
-```
+
