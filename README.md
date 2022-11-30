@@ -60,5 +60,5 @@ Bind value of attribute<br>
 Html viewer<br>
 
 ```
-v-html="getHtmlStr()"<br>
+<p v-html="outputGoal()"></p>
 ```
