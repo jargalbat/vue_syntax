@@ -36,7 +36,7 @@ Button<br>
 ```
 <button type="button" v-on:click="addGoal">Add</button><br>
 ```
-For<br>
+List<br>
 ```
 <li v-for="goal in goals">{{ goal }}</li>
 ```
